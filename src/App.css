@@ -1,0 +1,39 @@
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+.mainvisual {
+  height: 100vh;
+  position: relative;
+}
+
+.mainvisual .title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: "Playwrite GB S", cursive;
+  width: 100%;
+  text-align: center;
+}
+
+main {
+  background-image: url(./assets/img/halloween.jpg);
+  background-size: cover;
+}
+
+.wrap {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+main .container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btns {
+  text-align: center;
+}
