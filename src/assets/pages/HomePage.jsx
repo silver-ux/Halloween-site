@@ -8,9 +8,9 @@ export const HomePage = () => {
       <div className="wrap">
           <MainVisual />
           <div className="container">
-            <PageButtons title="History" text="Writing here about a halloween history" image="src/assets/img/7784913.jpg" />
-            <PageButtons title="Mythology" image="src/assets/img/7784913.jpg" />
-            <PageButtons title="Monsters" image="src/assets/img/7784913.jpg" />
+            <PageButtons title="History" text="Writing here about a halloween history." image="src/assets/img/7784913.jpg" />
+            <PageButtons title="Mythology" text="Writing here about Greek mythology gods. I don't know it related to Halloween." image="src/assets/img/castle.jpg" />
+            <PageButtons title="Monsters" text="Writing here about Halloween Monsters." image="src/assets/img/ghost.jpg" />
           </div>
         </div>
     </main>
