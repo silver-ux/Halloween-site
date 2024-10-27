@@ -2,7 +2,7 @@ import React from 'react'
 
 export const PageButtons = (props) => {
   return (
-    <div className='btns' style={{color:"white", width: "30%"}}>
+    <div className='btns' style={{color:"white", width: "100%"}}>
         <img src={props.image} alt="image" style={{width:"80%", height:150, borderRadius: 30, marginTop: "10%"}} />
         <div className="title">
             <h3 style={{fontSize:"32px", padding: "10px 0"}}>{props.title}</h3>

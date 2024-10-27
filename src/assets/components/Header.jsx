@@ -7,7 +7,9 @@ export const Header = () => {
   return (
     <header>
         <div className="container">
-            <h1>HOME</h1>
+            <Link to="/"> 
+                <h1>HOME</h1>
+            </Link>
             <nav>
                 <ul>
                     <li>
