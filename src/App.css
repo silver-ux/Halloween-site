@@ -21,7 +21,7 @@
 }
 
 main {
-  background-image: url(./assets/img/halloween.jpg);
+  background-image: url(../src/img/halloween.jpg);
   background-size: cover;
   background-position: center;
 }
