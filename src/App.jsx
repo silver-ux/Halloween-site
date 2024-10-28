@@ -1,5 +1,6 @@
 import './App.css'
 import { Header } from './assets/components/Header'
+import { ScrollTop } from './assets/components/ScrollTop'
 import { HistoryPage } from './assets/pages/HistoryPage'
 import { HomePage } from './assets/pages/HomePage'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
@@ -9,6 +10,7 @@ function App() {
   return (
     <Router>
       <div>
+        <ScrollTop />
         <Header />
 
       <Routes>

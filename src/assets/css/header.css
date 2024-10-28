@@ -30,3 +30,19 @@ header .container nav ul {
 header .container nav ul li {
     margin-right: 1em;
 }
+
+@media screen and (max-width:600px) {
+    header .container h1 {
+        font-size: 2em;
+    }
+
+    header .container button {
+        display: none;
+    }
+
+    header .container nav ul li {
+        margin-right: 0;
+        font-size: 16px;
+        margin-left: 1em;
+    }
+}
