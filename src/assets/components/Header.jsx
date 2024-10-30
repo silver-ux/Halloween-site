@@ -12,12 +12,12 @@ export const Header = () => {
             </Link>
             <nav>
                 <ul>
-                    <li>
-                        About
-                    </li>
-                    <li>
-                        Movies
-                    </li>
+                    <Link to="/history">
+                    <li>History</li>
+                    </Link>
+                    <Link to="https://parade.com/living/halloween-monsters" target="_blank">
+                    <li>Monsters</li>   
+                    </Link>
                 </ul>
                 <Btn size="24px" text="EN" bgc="black" color="white" />
             </nav>

@@ -15,12 +15,12 @@ export const HomePage = () => {
             <Link to="/history">
               <PageButtons title="History" text="Writing here about a halloween history." image={pi1} />
             </Link>
-            <Link>
+            <Link to='/mythology'>
               <PageButtons title="Mythology" text="Writing here about Greek mythology gods. I don't know it related to Halloween." image={castle} />
             </Link>
-            <Link>
+            <Link to="https://parade.com/living/halloween-monsters" target="_blank">
               <PageButtons title="Monsters" text="Writing here about Halloween Monsters." image={monster} />
-              </Link>
+            </Link>
           </div>
         </div>
     </main>
